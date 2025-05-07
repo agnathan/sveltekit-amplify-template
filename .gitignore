@@ -42,3 +42,10 @@ amplifytools.xcconfig                 # Xcode project settings :contentReference
 node_modules/                         # NPM packages :contentReference[oaicite:8]{index=8}  
 build/                                # Frontend build artifacts :contentReference[oaicite:9]{index=9}  
 dist/                                 # Another common build output :contentReference[oaicite:10]{index=10}  
+
+
+# amplify
+node_modules
+.amplify
+amplify_outputs*
+amplifyconfiguration*
